@@ -1,0 +1,30 @@
+{
+  "name": "cartodbjs-hoverintent",
+  "version": "0.0.1",
+  "description": "Hover intent for CartoDB.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "watch": "babel src/index.js --out-file index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ebrelsford/cartodbjs-hoverintent.git"
+  },
+  "keywords": [
+    "gis",
+    "map",
+    "cartocss",
+    "cartodb",
+    "leaflet"
+  ],
+  "author": "Eric Brelsford <ebrelsford@gmail.com> (http://ebrelsford.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebrelsford/cartodb-hoverintent/issues"
+  },
+  "homepage": "https://github.com/ebrelsford/cartodb-hoverintent#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
